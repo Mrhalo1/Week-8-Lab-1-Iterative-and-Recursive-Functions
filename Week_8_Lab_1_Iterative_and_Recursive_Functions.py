@@ -13,7 +13,7 @@ def factorial_iterative(num):
     return fact
 
 def main():
-    numList = [0, 5, 10, 25, 50, 100]
+    numList = [0, 3, 10, 15, 42, 99]
     print("Factorial results using an iterative function")
     for num in numList:
         print(f'{num}! = {factorial_iterative(num)}')
